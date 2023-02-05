@@ -1,0 +1,28 @@
+// Read more modal styles
+
+.read-more-modal__icon {
+  width: 9px;
+  height: 9px;
+  @include tablet {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.read-more-modal__video {
+  width: 73vw;
+  margin-bottom: 20px;
+  @include mobile {
+    width: 384px;
+  }
+
+  @include tablet {
+    width: 448px;
+  }
+}
+
+.read-more-modal__text {
+  @include tablet {
+    width: 448px;
+  }
+}

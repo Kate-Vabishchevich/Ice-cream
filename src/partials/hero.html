@@ -1,0 +1,125 @@
+<section class="hero section">
+  <div class="container hero-container">
+    <h1 class="hero__title">
+      ice cream made with <span class="hero__title-big">passion</span>
+    </h1>
+    <ul class="hero__list list">
+      <li class="hero__item">16</li>
+      <p class="hero__item-desc">cafes</p>
+      <li class="hero__item">23</li>
+      <p class="hero__item-desc">food trucks</p>
+    </ul>
+
+    <div class="hero__made">
+      <a href="#products" class="hero__btn button">Products</a>
+      <a href="#about" class="hero__btn--made button">How it’s made?</a>
+    </div>
+    <div class="hero__group">
+      <picture>
+        <source
+          srcset="
+            ./images/hero/hero-many-ice-desktop.png   1x,
+            ./images/hero/hero-many-ice-desktop2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+
+        <source
+          srcset="
+            ./images/hero/hero-many-ice-tablet.png   1x,
+            ./images/hero/hero-many-ice-tablet2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <img
+          src="./images/hero/hero-many-ice-tablet.png"
+          alt="Many ice"
+          class="hero__many--ice"
+        />
+      </picture>
+
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+        <a class="hero--arrow" href="#customer-reviews">
+          <svg class="hero--arrow__icon" width="40" height="14">
+            <use
+              href="./images/icons.svg#long-arrow-default"
+              class="hero--arrow__icon--default"
+            ></use>
+          </svg>
+          <svg class="hero--arrow__icon" width="50" height="14">
+            <use
+              href="./images/icons.svg#long-arrow-hover"
+              class="hero--arrow__icon--hover"
+            ></use>
+          </svg>
+          <svg class="hero--arrow__icon" width="50" height="22">
+            <use
+              href="./images/icons.svg#long-arrow-focus"
+              class="hero--arrow__icon--focus"
+            ></use>
+          </svg>
+        </a>
+      </p>
+    </div>
+
+    <picture>
+      <source
+        srcset="
+          ./images/hero/hero-dots-desktop.png   1x,
+          ./images/hero/hero-dots-desktop2x.png 2x
+        "
+        media="(min-width:1200px)"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-dots-tablet.png   1x,
+          ./images/hero/hero-dots-tablet2x.png 2x
+        "
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-dots-mob.png   1x,
+          ./images/hero/hero-dots-mob2x.png 2x
+        "
+        media="(max-width:767px)"
+      />
+      <img
+        src="./images/hero/hero-dots-mob.png"
+        alt="yellow dots"
+        class="hero__dots"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="
+          ./images/hero/hero-ice-desktop-cut.png   1x,
+          ./images/hero/hero-ice-desktop2x-cut.png 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-ice-tablet-cut.png   1x,
+          ./images/hero/hero-ice-tablet2x-cut.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-ice-mob-cut1.png   1x,
+          ./images/hero/hero-ice-mob2x-cut1.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./images/hero/hero-ice-mob-cut1.png"
+        alt="Big ice-cream"
+        class="hero__ice"
+      />
+    </picture>
+  </div>
+</section>

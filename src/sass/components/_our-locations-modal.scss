@@ -1,0 +1,149 @@
+// Our locations modal styles
+
+@media screen and (max-width: 767px) {
+  .map-window--decor {
+    // width: 280px;
+    height: 365px;
+    padding: 28px 28px;
+  }
+  .map__contacts {
+    // width: 224px;
+    width: 100%;
+    height: 199px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+  }
+
+  .map__title {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 230px;
+    margin-bottom: 20px;
+  }
+
+  .submitik-map {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .map-window--decor {
+    width: 568px;
+    height: 458px;
+    padding: 32px 59px;
+  }
+  .map__contacts {
+    width: 448px;
+    height: 260px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+  }
+
+  .map__title {
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 322px;
+    margin-bottom: 32px;
+  }
+
+  .submitik-map {
+    margin-bottom: 32px;
+  }
+}
+
+/* Заголоовок загальне оформлення  */
+
+.contact__title--decor {
+  font-family: $font-title;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  color: #131313;
+}
+
+/* загальна кнопка */
+
+.modal-btn-close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 8px;
+  right: 8px;
+
+  justify-content: center;
+  border: none;
+}
+
+.modal-btn-close__svgen-close {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 5250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn-close__svgen-close:focus {
+  background: $hover-color;
+  color: $main-text-color;
+}
+
+.modal-btn-close__svgen-close:hover {
+  background: $hover-color;
+}
+
+.submitik-map {
+  width: 121px;
+  height: 42px;
+  left: 224px;
+  top: 594px;
+  background: $accent-color;
+  border-radius: 10px;
+  border: none;
+  padding-left: auto;
+
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  align-items: center;
+  text-align: center;
+
+  color: #131313;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  justify-content: center;
+}
+
+.submitik-map:hover {
+  background: $hover-color;
+}
+
+.submitik-map:focus {
+  background: $hover-color;
+  color: $main-text-color;
+}
+
+.submitik-map:disabled {
+  background: $disabled-color;
+}
+.placeholder {
+  font-family: $font-main;
+  color: $accent-text-color;
+}
